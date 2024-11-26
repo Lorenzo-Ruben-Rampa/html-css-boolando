@@ -27,6 +27,7 @@ a {
 
 .white-icons {
     color: white;
+    font-size: 10px;
 }
 
 .contact {
@@ -51,6 +52,79 @@ a {
 
 /* riga-1 */
 
-/* riga-2 */
+ /* .container {  
+    width: 80%;;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 100px;
+    left: 200px;
+    right: 200px;
+}
+
+.item > .sconto {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+}
+
+.verde {
+    background-color: green;
+}
+
+.rosso {
+    background-color: red;
+}
+
+.item {
+    position: relative;
+    width: 30%;
+    max-height: 700px;
+    display: inline-block;
+    margin: 7px;
+  }
+
+.heart {
+    color: black;
+    font-size: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: white;
+    min-width: 40px;
+    min-height: 40px;
+    text-align: center;
+}
+
+.item:hover .heart {
+    display: block;
+  }
+
+  span {
+    color: white;
+    font-weight: bold;
+  }
+
+  .product-img {
+    object-fit:cover;
+    width: 100%;
+    height: 100%;
+  }
+
+/* riga-2 */ 
+
+
 
 /* footer */
+
+footer {
+    background-color: black;
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-icons {
+    margin: 2px;
+}
