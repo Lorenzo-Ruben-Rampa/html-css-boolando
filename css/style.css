@@ -119,6 +119,9 @@ del {
     display: inline;  
   }
 
+  .hover:hover {
+    display: none;
+  }
 
 span {
     color: white;
