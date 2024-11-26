@@ -58,7 +58,6 @@ a {
     position: relative;
     margin-left: 200px;
     margin-right: 200px;
-    margin-top: 75px;
     margin-bottom: 75px;
 }
 
@@ -70,6 +69,7 @@ a {
 
 .container-immagine {
     position: relative;
+    margin-top: 75px;
 }
 
 .item {
@@ -111,26 +111,31 @@ del {
     margin-top: 10px;
 }
 
-.item:hover . {
-   
+.hover-b {
+    display: none;
+}
+
+.hover:hover + .hover-b {
+    display: inline;  
   }
 
-  span {
+
+span {
     color: white;
     font-weight: bold;
   }
 
-  .prezzo {
+.prezzo {
     color: red;
     font-size: 10px;
   }
 
-  .product-img {
+.product-img {
     width: 100%;
     height: 100%;
   }
 
-  .marca {
+.marca {
     color: gray;
     font-size: 10px;
    
