@@ -12,6 +12,8 @@ header {
     justify-content: space-around;
     width: 100%;
     align-items: center;
+    position:fixed;
+    z-index: 900;
 }
 
 a {
