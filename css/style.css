@@ -98,6 +98,8 @@ del {
     display:inline-block;
 }
 
+/* hover cuore */
+
 .heart {
     color: black;
     font-size: 30px;
@@ -109,7 +111,19 @@ del {
     min-height: 40px;
     text-align: center;
     margin-top: 10px;
+    cursor:pointer;
 }
+
+.heart:hover {
+    color: red;
+}
+
+
+.container-immagine:hover {
+    display: block;
+}
+
+/* hover immagini */
 
 .hover-b {
     display: none;
